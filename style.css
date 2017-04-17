@@ -4,8 +4,11 @@ body {
   border: solid;
   border-color: black;
   padding: 5%;
+}
 
-
+img {
+  display: block;
+  margin: 0px auto;
   
 }
 a:link {
@@ -33,11 +36,29 @@ h1 {
 
 h2 {
   font-family: impact, fantasy;
-  margin: 3%;
+
 }
 
 p {
   font-family: cursive;
+}
+
+fieldset  {
+  text-align: center;
+  border: dashed;
+}
+
+.home {
+  display: block;
+  background-image: url(gillshome2.jpg);
+  background-repeat: no-repeat;
+  margin: auto;
+
+
+}
+.small  {
+  height: 450px;
+  width: 600px
 
 }
 
