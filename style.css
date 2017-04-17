@@ -1,1 +1,23 @@
-body {background:blue} 
+body {
+
+  
+}
+
+h1 {
+  font-family: fantasy;
+  text-align: center;
+}
+
+h2 {
+  font-family: impact, fantasy;
+}
+
+p {
+  font-family: cursive;
+
+}
+
+#intro {
+  text-align: center;
+  font-size: 150%;
+}
