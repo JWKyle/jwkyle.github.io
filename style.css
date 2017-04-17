@@ -31,7 +31,7 @@ h1 {
   text-align: center;
   border-width: medium;
   border-color: black;
-  padding: 0% auto 2%;
+  padding: 1%;
 
 
 }
@@ -91,6 +91,5 @@ footer  {
   img {
     width: 50%;
     height: 50%;
-  }
   }
 }
