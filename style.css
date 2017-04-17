@@ -1,16 +1,39 @@
 body {
   font-size: 105%;
+  border-width: medium;
+  border: solid;
+  border-color: black;
+  padding: 5%;
+
 
   
 }
+a:link {
+  color: green;
+  text-decoration: none;
+}
 
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: darkgreen;
+  text-decoration: underline;
+}
 h1 {
   font-family: fantasy;
   text-align: center;
+  border-width: medium;
+  border-color: black;
+  padding: 5%;
+
+
 }
 
 h2 {
   font-family: impact, fantasy;
+  margin: 3%;
 }
 
 p {
@@ -18,7 +41,13 @@ p {
 
 }
 
+footer  {
+  text-align: center;
+  margin: 5px;
+}
+
 #intro {
   text-align: center;
   font-size: 150%;
 }
+
