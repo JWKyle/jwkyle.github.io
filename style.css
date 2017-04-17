@@ -1,1 +1,83 @@
-body {background:blue} 
+body {
+  font-size: 105%;
+  border-width: medium;
+  border: solid;
+  border-color: black;
+  padding: 5%;
+  background-color: lightgrey;
+
+}
+
+img {
+  display: block;
+  margin: 0px auto;
+  
+}
+a:link {
+  color: green;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: darkgreen;
+  text-decoration: underline;
+}
+h1 {
+  font-family: fantasy;
+  text-align: center;
+  border-width: medium;
+  border-color: black;
+  padding: 0% auto 2%;
+
+
+}
+
+h2 {
+  font-family: impact, fantasy;
+
+}
+
+p {
+  font-family: cursive;
+  text-indent: 1.5%;
+}
+
+fieldset  {
+  text-align: center;
+  border: dashed;
+}
+
+
+.home {
+  display: block;
+  vertical-align: center;
+  background-image: url(skyline.jpg);
+  background-repeat: no-repeat;
+  margin: auto 0;
+  text-align: left;
+
+}
+.small  {
+  height: 450px;
+  width: 600px
+
+}
+
+footer  {
+  text-align: center;
+  margin: 5px;
+}
+
+.purp {
+  text-decoration-color: purple;
+}
+
+#intro {
+  text-align: center;
+  font-size: 150%;
+}
+
