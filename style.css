@@ -4,6 +4,8 @@ body {
   border: solid;
   border-color: black;
   padding: 5%;
+  background-color: lightgrey;
+
 }
 
 img {
@@ -29,7 +31,7 @@ h1 {
   text-align: center;
   border-width: medium;
   border-color: black;
-  padding: 5%;
+  padding: 0% auto 2%;
 
 
 }
@@ -41,6 +43,7 @@ h2 {
 
 p {
   font-family: cursive;
+  text-indent: 1.5%;
 }
 
 fieldset  {
@@ -48,12 +51,14 @@ fieldset  {
   border: dashed;
 }
 
+
 .home {
   display: block;
-  background-image: url(gillshome2.jpg);
+  vertical-align: center;
+  background-image: url(skyline.jpg);
   background-repeat: no-repeat;
-  margin: auto;
-
+  margin: auto 0;
+  text-align: left;
 
 }
 .small  {
@@ -65,6 +70,10 @@ fieldset  {
 footer  {
   text-align: center;
   margin: 5px;
+}
+
+.purp {
+  text-decoration-color: purple;
 }
 
 #intro {
